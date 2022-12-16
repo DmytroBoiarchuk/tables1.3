@@ -58,3 +58,14 @@ const users = [
 ];
 
 DataTable(config1, users);
+
+var table = new Tabulator("#example-table", {
+    data: users,
+    layout:"fitColumns",
+    columns: [
+        { title: "Имя", field: "name"},
+        { title: "Фамилия", field: "age"},
+        {title: "Возраст", field: "surname"},
+        {title: "Размер ноги", field: "length"}],
+
+});
