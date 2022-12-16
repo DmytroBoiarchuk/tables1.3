@@ -1,6 +1,13 @@
 #usersTable .table, th, td {
+    margin: 0;
     border: 1px solid black;
+}
+table{
     border-collapse: collapse;
+}
+#usersTable table{
+    width: 100%;
+    margin: 0;
 }
 #usersTable {
     display: flex;
