@@ -1,0 +1,16 @@
+#usersTable .table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+#usersTable {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+#usersTable tbody tr th{
+    font-weight: 200;
+    font-size: 15px;
+}
+th:nth-child(even),td:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
+}
